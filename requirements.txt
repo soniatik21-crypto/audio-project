@@ -1,0 +1,9 @@
+torch
+torchaudio
+silero-vad
+noisereduce
+librosa
+soundfile
+matplotlib
+numpy
+ffmpeg-python
