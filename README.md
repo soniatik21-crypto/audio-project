@@ -1,2 +1,20 @@
 # audio-project
 Обработка аудио: VAD, шумоподавление, спектограмма
+
+## Описание
+Обработка аудио на Python:
+1. Загрузка аудиофайла
+2. Определение наличия речи (Silero VAD)
+3. Удаление шумов (noisereduce)
+4. Построение спектрограммы (librosa)
+5. Конвертация видео в аудио (ffmpeg)
+
+## Как запустить
+1. Нажми кнопку **"Open in Colab"** в файле `audio-project.ipynb`
+2. Загрузи свой аудиофайл
+3. Запускай ячейки по очереди
+
+## Использованные библиотеки
+- [Silero VAD](https://github.com/snakers4/silero-vad)
+- [noisereduce](https://github.com/timsainb/noisereduce)
+- [librosa](https://librosa.org/)
